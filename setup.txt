@@ -1,0 +1,18 @@
+Windows:
+	cd D:\PathToProject
+	virtualenv venv
+	venv\Scripts\activate
+	pip install -r requirements.txt
+	python manage.py runserver
+
+Linux:
+    $ virtualenv venv
+    $ source venv/bin/activate
+    $ pip install -r requirements.txt
+    $ python manage.py runserver
+
+To change the list of strings, use File.txt file
+
+API: http://localhost:8000/trieAutoSuggest/?search_key=hel
+
+In the above API pass the key to search in 'search_key'
